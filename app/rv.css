@@ -1,0 +1,351 @@
+:root {
+  --primary: #0d1b2a;
+  --primary-dark: #070e17;
+  --rv-accent: #00a896;
+  --rv-accent-cyan: #00b4d8;
+  --accent-soft: #e0f2f1;
+  --accent-gold: #d4af37;
+  --bg: #fffcf8;
+  --surface: #fffcf8;
+  --hero-sky-1: #598ebc;
+  --hero-sky-2: #b6bec5;
+  --hero-cta: #6fcb6b;
+  --background: #fffcf8;
+  --foreground: #0d1b2a;
+  --card: #fffcf8;
+  --card-foreground: #0d1b2a;
+  --primary-foreground: #fffcf8;
+  --secondary: #eaf2f0;
+  --secondary-foreground: #0d1b2a;
+  --muted: #eaf2f0;
+  --muted-foreground: #4a5b6d;
+  --border: #cfe3e0;
+  --input: #cfe3e0;
+  --navy: #0d1b2a;
+  --navy-foreground: #fffcf8;
+  --teal: #00a896;
+  --teal-ink: #00a896;
+  --sand: #eaf2f0;
+  --font-heading: "Figtree", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Figtree", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Fraunces", ui-serif, Georgia, serif;
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+}
+
+html,
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+}
+
+.rv-hero {
+  background: linear-gradient(180deg, #598ebc 0%, #b6bec5 48%, #fffcf8 100%);
+}
+
+.rv-cta {
+  background: #6fcb6b;
+  color: #0d1b2a;
+}
+
+.rv-cta:hover {
+  background: #5fbe5c;
+}
+
+.rv-kicker {
+  letter-spacing: 0.18em;
+  color: #00a896;
+}
+
+.rv-hero-photos {
+  position: relative;
+  min-height: 420px;
+}
+
+.rv-hero-photos img {
+  object-fit: cover;
+  border-radius: 1.25rem;
+}
+
+.rv-photo-main {
+  margin-left: auto;
+  height: 390px;
+  width: 62%;
+}
+
+.rv-photo-side {
+  position: absolute;
+  left: 0;
+  bottom: 1.25rem;
+  height: 250px;
+  width: 48%;
+  border: 5px solid #fffcf8;
+  box-shadow: 0 14px 36px #0d1b2a14;
+}
+
+.rv-step-photo {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.rv-wordmark {
+  font-family: var(--font-serif);
+  letter-spacing: -0.04em;
+  color: #0d1b2a;
+  white-space: nowrap;
+  flex-shrink: 0;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.rv-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.rv-logo-mark {
+  flex-shrink: 0;
+}
+
+.rv-logo-type {
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-size: 16.64px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: #0d1b2a;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.rv-logo-vital {
+  color: #00a896;
+}
+
+.rv-logo-tm {
+  font-size: 0.55em;
+  vertical-align: super;
+  margin-left: 1px;
+  color: #00a896;
+  font-weight: 700;
+}
+
+.rv-product-card {
+  overflow: hidden;
+}
+
+.rv-product-card--tirzepatide {
+  --product-accent: #00b4d8;
+}
+
+.rv-product-card--semaglutide {
+  --product-accent: #00a896;
+}
+
+.rv-product-stripe {
+  display: block;
+  height: 4px;
+  width: 100%;
+  background: var(--product-accent, #00a896);
+}
+
+.legal-page {
+  padding: 3.5rem 0 5rem;
+}
+
+.legal-article {
+  max-width: 48rem;
+}
+
+.legal-kicker {
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  color: #00a896;
+  margin-bottom: 0.5rem;
+}
+
+.legal-title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.9rem, 3.5vw, 2.6rem);
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.75rem;
+  color: #0d1b2a;
+}
+
+.legal-updated {
+  color: #4a5b6d;
+  font-size: 0.9rem;
+  margin-bottom: 1.25rem;
+}
+
+.legal-lede {
+  color: #4a5b6d;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  margin: 0 0 2rem;
+  max-width: 40rem;
+}
+
+.legal-toc {
+  background: #eaf2f0;
+  border-radius: 12px;
+  padding: 1.1rem 1.25rem;
+  margin: 0 0 2rem;
+}
+
+.legal-toc-label {
+  margin: 0 0 0.55rem;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #0d1b2a;
+}
+
+.legal-toc ol {
+  margin: 0;
+  padding-left: 1.15rem;
+  columns: 2;
+  column-gap: 1.5rem;
+}
+
+.legal-toc li {
+  break-inside: avoid;
+  margin: 0 0 0.35rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.legal-toc a {
+  color: #0d1b2a;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.legal-body h2 {
+  font-size: 1.15rem;
+  font-weight: 800;
+  margin: 1.85rem 0 0.65rem;
+  color: #0d1b2a;
+  scroll-margin-top: 6rem;
+}
+
+.legal-body p,
+.legal-body li {
+  color: #2b2b2b;
+  font-size: 1.02rem;
+  line-height: 1.7;
+}
+
+.legal-body p {
+  margin-bottom: 1rem;
+}
+
+.legal-body ul {
+  margin: 0 0 1rem 1.15rem;
+}
+
+.legal-states {
+  list-style: none;
+  margin: 0 0 1.25rem !important;
+  padding: 0 !important;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.35rem 1rem;
+}
+
+.legal-states li {
+  font-size: 0.95rem;
+  color: #2b2b2b;
+}
+
+.legal-more {
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #cfe3e0;
+}
+
+.legal-more a {
+  font-weight: 700;
+  color: #0d1b2a;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.legal-hub {
+  margin: 0 0 2.5rem;
+}
+
+.legal-hub-title {
+  font-size: 1.15rem;
+  font-weight: 800;
+  margin: 0 0 1rem;
+  color: #0d1b2a;
+}
+
+.legal-hub-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.legal-hub-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 1.15rem 1.2rem;
+  background: #fff;
+  border: 1px solid #cfe3e0;
+  border-radius: 12px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.legal-hub-card:hover {
+  border-color: #00a896;
+}
+
+.legal-hub-card strong {
+  color: #0d1b2a;
+  font-size: 1.02rem;
+}
+
+.legal-hub-card span {
+  color: #4a5b6d;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.legal-hub-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.legal-hub-list a {
+  color: #0d1b2a;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 720px) {
+  .legal-toc ol,
+  .legal-states,
+  .legal-hub-grid {
+    columns: 1;
+    grid-template-columns: 1fr;
+  }
+}

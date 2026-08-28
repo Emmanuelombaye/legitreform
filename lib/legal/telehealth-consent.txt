@@ -1,0 +1,40 @@
+Telehealth Consent
+Last updated: August 27, 2026
+
+
+This Telehealth Consent explains how telehealth services may be provided through the Reform Vital® platform. By using the Reform Vital® Services, completing an assessment, submitting information, or proceeding with provider review, you consent to receive care through telehealth where permitted by applicable law.
+Reform Vital® is not a pharmacy and does not itself practice medicine. Medical services, if available, are provided by independent US-licensed providers or affiliated clinical partners.
+1. What Telehealth Is
+Telehealth is the delivery of health-related services and clinical information through electronic communications between a patient and a provider who are in different locations.
+Telehealth may include online questionnaires, secure messaging, uploaded photos or documents, remote provider review, and other electronic communications. A live video or phone visit may not always be required unless requested by a provider or required by law.
+2. Asynchronous Care
+Care through Reform Vital® is often delivered asynchronously, meaning a US-licensed provider reviews your information and communicates with you at separate times rather than during a real-time visit.
+Asynchronous telehealth may not be appropriate for all medical conditions. A provider may request more information, require a live consultation, decline treatment, or recommend in-person care.
+3. Provider Review
+The information you submit through assessments, intake forms, secure messages, and uploads is reviewed by an independent US-licensed provider to determine whether treatment is clinically appropriate for you.
+Providers may ask follow-up questions, request additional information, or recommend alternative care, including in-person evaluation.
+4. No Guarantee of Prescription
+Completing an assessment, checkout, payment authorization, or account creation does not guarantee that treatment will be prescribed.
+Prescription treatment, if any, is provided only after a US-licensed provider reviews your information and determines that treatment is clinically appropriate.
+5. Potential Benefits of Telehealth
+Potential benefits include more convenient access to licensed providers, the ability to receive care from a private location, reduced travel and wait times, and discreet communication about sensitive health concerns.
+6. Potential Risks and Limitations
+Telehealth has potential risks and limitations, including but not limited to: information transmitted may be insufficient to allow appropriate clinical decision-making; delays in evaluation or treatment may occur due to technology failures; and, in rare cases, security protocols could fail, causing a breach of privacy of personal health information.
+A provider may determine that telehealth is not appropriate for your situation and may recommend in-person evaluation or care.
+7. Your Responsibilities
+You are responsible for providing complete, accurate, and current information, including medical history, medications, allergies, symptoms, and any changes in your health.
+You agree to follow provider instructions, ask questions if anything is unclear, and notify your provider promptly of any new or worsening symptoms or side effects.
+8. Emergency Care
+If you are experiencing a medical emergency, call 911 or seek emergency medical care immediately. Reform Vital® should not be used for emergencies.
+9. Medical Records and Privacy
+Your information may become part of your medical record and may be shared with providers, pharmacies, fulfillment partners, payment processors, or service providers as described in the Privacy Policy and applicable notices.
+Reform Vital® uses reasonable administrative, technical, and physical safeguards designed to protect your information.
+10. Prescriptions and Pharmacy Fulfillment
+If a provider determines that prescription treatment is clinically appropriate, a prescription may be sent to a licensed dispensing pharmacy, where permitted by law.
+Final treatment, dose, formulation, and pricing may vary based on provider review, pharmacy availability, and applicable law.
+11. Right to Decline or Withdraw Consent
+You may decline or withdraw consent to telehealth at any time by discontinuing use of the Services or contacting support. Withdrawing consent may limit your ability to receive services through Reform Vital®.
+12. State Availability
+Services may not be available in all states. Available treatments, provider networks, and pharmacy partners may vary based on your location and applicable law.
+13. Contact Us
+Questions about this Telehealth Consent can be sent to support@reformvital.com
