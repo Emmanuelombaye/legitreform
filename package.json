@@ -2,11 +2,11 @@
   "name": "reform",
   "version": "1.0.0",
   "private": true,
-  "description": "Reform Vital — physician-guided telehealth for compounded GLP-1 care.",
+  "description": "Reform Vital \u2014 physician-guided telehealth for compounded weight-management care.",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start"
   },
   "dependencies": {
     "next": "^15.5.24",

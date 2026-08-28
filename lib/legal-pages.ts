@@ -44,6 +44,12 @@ export const legalPages: LegalPageMeta[] = [
     file: "npp.txt",
   },
   {
+    slug: "provider-network",
+    title: "Provider Network",
+    description: "Independent licensed healthcare professionals who provide clinical services through Reform Vital.",
+    file: "provider-network.txt",
+  },
+  {
     slug: "ccpa",
     title: "California Privacy Notice",
     description: "California privacy rights for visitors and patients using Reform Vital.",
@@ -173,6 +179,7 @@ export const primaryLegalLinks = [
 
 export const legalLinks = [
   ...primaryLegalLinks,
+  { label: "Provider Network", href: "/legal/provider-network" },
   { label: "CCPA", href: "/legal/ccpa" },
   { label: "Important Safety Information", href: "/legal/medication-notifications" },
   { label: "ADA Compliance", href: "/legal/ada" },

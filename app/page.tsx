@@ -7,7 +7,7 @@ import { HomePrograms } from "@/components/home/programs";
 export const metadata: Metadata = {
   title: "REFORM VITAL — Modern Medicine. Personalized Health. Real Results.",
   description:
-    "REFORM VITAL is a telehealth platform for compounded GLP-1 care. Licensed clinicians review your case. Compounding pharmacies fill only if prescribed.",
+    "REFORM VITAL is a telehealth platform for compounded weight-management care. Licensed clinicians review your case. Compounding pharmacies fill only if prescribed.",
 };
 
 export default function HomePage() {

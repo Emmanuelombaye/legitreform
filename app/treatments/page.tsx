@@ -12,7 +12,7 @@ export default function TreatmentsPage() {
       <p className="rv-kicker text-xs font-semibold uppercase">Weight Management</p>
       <h1 className="mt-3 font-display text-4xl md:text-5xl">Treatments</h1>
       <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-        Two clinician-guided GLP-1 programs. Licensed clinicians review your case. Pharmacies fill
+        Two clinician-guided weight-management programs. Licensed clinicians review your case. Pharmacies fill
         only if prescribed.
       </p>
       <TreatmentCatalog />
