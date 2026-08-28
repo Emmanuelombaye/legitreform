@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     template: "%s | Reform Vital",
   },
   description:
-    "REFORM VITAL is a telehealth platform for compounded GLP-1 care. Licensed clinicians review your case. Compounding pharmacies fill only if prescribed.",
+    "REFORM VITAL is a telehealth platform for compounded weight-management care. Licensed clinicians review your case. Compounding pharmacies fill only if prescribed.",
   icons: {
     icon: [
       { url: "/favicon.svg", type: "image/svg+xml" },

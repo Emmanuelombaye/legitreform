@@ -50,7 +50,7 @@ export const ALL_FAQS = [
   },
   {
     q: "Are labs required before I can start?",
-    a: "It depends on your history. Compounded GLP-1 plans often need recent labs. Your clinician will tell you what is required before prescribing.",
+    a: "It depends on your history. Compounded weight-management plans often need recent labs. Your clinician will tell you what is required before prescribing.",
   },
   {
     q: "What if I have side effects?",

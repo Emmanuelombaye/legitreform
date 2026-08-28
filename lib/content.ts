@@ -49,7 +49,7 @@ export const TIRZEPATIDE: Program = {
     "Reform Vital Tirzepatide vial with a navy cap, teal accent rule, and unbranded clinical labelling",
   about: [
     "The Reform Vital Tirzepatide Program is a clinician-guided weight-management program. As with every Reform Vital program, purchase comes first, the secure medical intake follows, and a licensed clinician determines whether treatment is appropriate.",
-    "Tirzepatide is a dual GIP and GLP-1 receptor agonist. The FDA has approved branded tirzepatide products for specific indications. Those approved branded products are distinct from any compounded tirzepatide formulation, and Reform Vital does not describe a compounded formulation as Zepbound or Mounjaro.",
+    "Tirzepatide is a dual incretin-pathway receptor agonist. The FDA has approved branded tirzepatide products for specific indications. Those approved branded products are distinct from any compounded tirzepatide formulation, and Reform Vital does not describe a compounded formulation as Zepbound or Mounjaro.",
     "This program is generally considered for adults with weight-related health goals who can be managed safely at a distance. Clinicians may request laboratory work or additional history, and may decline to treat.",
     "Program support continues after approval. Follow-up is part of the monthly price, and your clinician may adjust or discontinue a program at any point based on how you respond.",
   ],
@@ -114,19 +114,19 @@ export const SEMAGLUTIDE: Program = {
   strength: "2.5 mg/mL",
   form: "Injectable solution",
   summary:
-    "A GLP-1 based weight-management program with licensed-provider review, ongoing support, and one clear monthly price.",
+    "A clinician-guided weight-management program with licensed-provider review, ongoing support, and one clear monthly price.",
   description:
     "A clinician-guided semaglutide weight-management program. One monthly price including online consultation, standard shipping, and program support. Treatment requires licensed-provider approval.",
   vialLabel:
     "Reform Vital Semaglutide vial with a navy cap, teal accent rule, and unbranded clinical labelling",
   about: [
     "The Reform Vital Semaglutide Program is a clinician-guided weight-management program. You choose the program and complete checkout first; the required secure medical intake follows, and a licensed clinician then decides whether treatment is medically appropriate for you.",
-    "Semaglutide belongs to a class of medicines known as GLP-1 receptor agonists. Branded semaglutide products have been approved by the FDA for specific indications. Not every semaglutide formulation available through telehealth is the same as an FDA-approved branded product — compounded formulations are different products, and where a compounded formulation would be used, that is disclosed before fulfilment.",
+    "Semaglutide belongs to a class of incretin-based medicines. Branded semaglutide products have been approved by the FDA for specific indications. Not every semaglutide formulation available through telehealth is the same as an FDA-approved branded product — compounded formulations are different products, and where a compounded formulation would be used, that is disclosed before fulfilment.",
     "Care is delivered asynchronously by default. You submit your intake, identification, and any requested information, and a clinician reviews it on their own schedule. If more information is needed, you will be asked for it through your Reform Vital account rather than in a rushed live visit.",
     "People commonly considered for review include adults with weight-related health goals who can safely be managed remotely. Provider judgment governs. Some people will be asked for laboratory work, some will be referred to in-person care, and some will not be approved.",
   ],
   howItWorks: [
-    "GLP-1 receptor agonists act on pathways involved in appetite signalling and gastric emptying. In general terms, that is why people in clinical settings often report feeling full sooner and staying full longer.",
+    "These medicines act on pathways involved in appetite signalling and gastric emptying. In general terms, that is why people in clinical settings often report feeling full sooner and staying full longer.",
     "The effect is not automatic and is not identical between people. Response depends on individual physiology, other medications, existing conditions, nutrition, activity, and consistency of follow-up.",
     "Reform Vital does not publish dosing instructions or self-administration guidance on this website. If a clinician approves treatment, product-specific instructions come from the prescribing clinician and the dispensing pharmacy.",
   ],

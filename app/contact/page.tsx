@@ -13,7 +13,7 @@ export default function ContactPage() {
       <p className="rv-kicker text-xs font-semibold uppercase">Reform Vital</p>
       <h1 className="mt-3 font-display text-4xl">Contact</h1>
       <p className="mt-4 text-muted-foreground">
-        Questions about compounded GLP-1 care or whether telehealth is a fit. Email or call — this is
+        Questions about compounded weight-management care or whether telehealth is a fit. Email or call — this is
         not an emergency line.
       </p>
       <div className="mt-8 space-y-6">

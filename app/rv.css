@@ -156,6 +156,86 @@ body {
   background: var(--product-accent, #00a896);
 }
 
+.rv-footer-trust {
+  background: #0d1b2a;
+  border-top: 1px solid #1a2f45;
+  border-bottom: 1px solid #1a2f45;
+}
+
+.rv-footer-trust-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem 2rem;
+  padding: 1.1rem 0;
+}
+
+@media (max-width: 640px) {
+  .rv-footer-trust-inner {
+    justify-content: center;
+  }
+}
+
+.rv-footer-trust-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.85rem;
+  color: #fffcf8;
+}
+
+.rv-footer-trust-item--end {
+  justify-content: flex-end;
+}
+
+.rv-footer-trust-icon {
+  display: grid;
+  place-items: center;
+  font-size: 1.35rem;
+  line-height: 1;
+  color: #fffcf8;
+}
+
+.rv-footer-trust-label {
+  display: block;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #8fa4b8;
+}
+
+.rv-footer-trust-value {
+  display: block;
+  margin-top: 0.15rem;
+  font-size: 0.98rem;
+  font-weight: 700;
+  color: #fffcf8;
+}
+
+.rv-footer-provider {
+  display: flex;
+  justify-content: center;
+  background: #0d1b2a;
+  padding: 1.35rem 1rem 1.6rem;
+  border-bottom: 1px solid #1a2f45;
+}
+
+.rv-footer-provider-link {
+  font-family: var(--font-serif);
+  font-size: clamp(1.35rem, 2.8vw, 1.85rem);
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: #fffcf8;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.rv-footer-provider-link:hover {
+  color: #00a896;
+}
+
 .legal-page {
   padding: 3.5rem 0 5rem;
 }
